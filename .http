@@ -1,0 +1,12 @@
+###
+GET http://localhost:3000
+###
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+
+{
+  "title": "Sample Post",
+  "content": "This is the content of the sample post."
+}
+
